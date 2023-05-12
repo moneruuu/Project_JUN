@@ -1,0 +1,520 @@
+@charset "utf-8";
+
+/* ------------------- 背景 --------------------------  */
+
+canvas#canvas{
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+div#wrap{
+  width: 1000px;
+  height:1000px;
+  margin: 0 auto;
+}
+
+
+/* -------------------- 吹き出し関係 ----------------------- */
+
+.flexcontainer_top{
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+  /* background-color: black; */
+}
+.flexbox_top_1{  
+  display: flex;
+  flex-direction: row-reverse;
+
+  width: 100%;
+  height: 30%;
+  margin-top: 40px;
+  margin-bottom: 10px;
+
+  /* background-color: #c0c0c0; */
+}
+
+.flexbox_top_2{
+  display: flex;
+  flex-direction: reverse;
+  /* color: #fff; */
+
+  width: 100%;
+  height: 10%;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 70px;
+  font-family: 'DotGothic16', sans-serif;
+
+}
+
+.flexitem_top_1,.flexitem_top_2{
+  height: 100%;
+  width: 24%;
+
+  /* background-color: #c0c0c0; */
+}
+
+.flexitem_top_1{
+  margin-right: 10%;
+  margin-top: 96px;
+  color: azure;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.flexitem_top_2{
+  margin-left: 5%;
+  padding-left: 5%;
+  margin-top: 60px;
+  background-image: url(../images/sun2.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.flexitem_top_3{
+  margin-right: 10%;
+  margin-top: 96px;
+  color: azure;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+
+
+
+div#left_content{
+  /* background-color: red; */
+  height: 100%;
+  width: 48%;
+  margin-top: 65px;
+  float: left;
+}
+div#left_content div#content_01{
+  /* background-color: #c0c0c0; */
+  position: relative;
+  /* コンテンツがcanvasに隠れないように初期状態回避 */
+  background-image: url(../images/top_word.png);
+  background-repeat: no-repeat;
+  background-position: 0%;
+  margin-top: -60px;
+  height: 40%;
+}
+
+div#left_content div#box_text{
+  position: absolute;
+  top: 60px;
+  left: 350px;
+}
+
+div#left_content div#content_02{
+  position: relative;
+
+  /* background-color: #c0c0c0; */
+  height: 60%;
+}
+
+
+div#right_content{
+  /* background-color: blue; */
+  height: 100%;
+  width: 52%;
+
+  float: right;
+}
+div#right_content div#content_04{
+  /* background-color: #c0c0c0; */
+  height: 22%;
+}
+div#right_content div#content_05{
+  /* background-color: #c0c0c0; */
+  height: 60%;
+  position: relative;
+  /* コンテンツがcanvasに隠れないように初期状態回避 */
+}
+div#right_content div#content_06{
+  /* background-color: #c0c0c0; */
+  height: 18%;
+}
+
+.flexcontainer{
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(60, 60, 60); */
+}
+.flexbox{  
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 30%;
+  margin: auto;
+
+  /* background-color: #c0c0c0; */
+}
+.flexitem{
+  height: 100%;
+  width: 24%;
+  margin: auto;
+
+  /* background-color: #c0c0c0; */
+}
+
+/* ----------------------中央コンテナ　主にドリンク関係 ------------------ */
+
+.flexcontainer_center{
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(60, 60, 60); */
+}
+
+.flexbox_center_1,.flexbox_center_2,.flexbox_center_3{  
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 30%;
+  margin: auto;
+
+  /* background-color: #c0c0c0; */
+}
+
+.flexitem_center_1,.flexitem_center_2,.flexitem_center_3{
+  height: 100%;
+  width: 24%;
+  margin: auto;
+
+  /* background-color: #c0c0c0; */
+
+}
+
+/* .drink_1_button{
+  display: inline-block;
+  height: 180px;
+  width: 124px;
+  background-image: url(../images/drink1.png);
+  background-repeat: no-repeat;
+} */
+
+#drink_slot_0,#drink_slot_2,
+#drink_slot_5,#drink_slot_7,
+#drink_slot_8,#drink_slot_10{
+  /* position: absolute;
+  left: 20px;
+  top: 0; */
+  width: 100px;
+  height: 100px;
+  /* background: #4169e1; */
+  border-radius: 50%;
+  animation: wobbling_x 0.8s ease-in-out infinite alternate,
+    wobbling_y 1.1s ease-in-out infinite alternate;
+}
+
+@keyframes wobbling_x {
+  0% {
+    margin-left: 8px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes wobbling_y {
+  0% {
+    margin-top: 0px;
+  }
+
+  100% {
+    margin-top: 8px;
+  }
+}
+
+
+#drink_slot_1,#drink_slot_3,
+#drink_slot_4,#drink_slot_6,
+#drink_slot_9,#drink_slot_11{
+  /* position: absolute;
+  left: 20px;
+  top: 0; */
+  width: 100px;
+  height: 100px;
+  /* background: #4169e1; */
+  border-radius: 50%;
+  animation: wobbling_x 1.1s ease-in-out infinite alternate,
+    wobbling_y 0.9s ease-in-out infinite alternate;
+}
+
+@keyframes wobbling_x {
+  0% {
+    margin-left: 8px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes wobbling_y {
+  0% {
+    margin-top: 0px;
+  }
+
+  100% {
+    margin-top: 8px;
+  }
+}
+
+#drink_slot_0,#drink_slot_1,
+#drink_slot_2,#drink_slot_3{
+  display: inline-block;
+  height: 180px;
+  width: 124px;
+  background-repeat: no-repeat;
+}
+
+
+
+#drink_slot_4,#drink_slot_5,#drink_slot_6,#drink_slot_7{
+  display: inline-block;
+  height: 180px;
+  width: 124px;
+  background-repeat: no-repeat;
+}
+
+
+
+#drink_slot_8,#drink_slot_9,#drink_slot_10,#drink_slot_11{
+  display: inline-block;
+  height: 180px;
+  width: 124px;
+  background-repeat: no-repeat;
+}
+
+
+
+/* ↑ */
+
+.flexbox_row{
+  display: flex;
+  flex-direction: row;
+
+  height: 100%;
+  width: 100%;
+}
+
+/*お願いします。*/
+.soldout{
+  position: absolute;
+  top: 450px;
+  left: 400px;
+    width: 124px;
+    height: 180px;
+    background-image: url(../images/sold.png);
+}
+
+
+/* ---------------- 潤のおすすめボタン関係 --------------- */
+
+#flexbox_junrecommend{
+  position: absolute;
+
+  padding-top: 450px;
+  height: 30%;
+}
+
+.button_junrecommend{
+  margin-right: auto;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /* background-image: url(../images/recommend_button.png);
+  background-repeat: no-repeat; */
+
+  display: inline-block;
+  text-decoration: none;
+  color: #cfa36a;
+  font-size: 1.2rem;
+  width: 230px;
+  height: 230px;
+  line-height: 230px;
+  border-radius: 50%;
+  border: double 6px #ffd66f;
+  background-color: rgb(255, 255, 255, 0.5);
+  text-align: center;
+  /* overflow: hidden; */
+  transition: .6s;
+  font-family: 'DotGothic16', sans-serif;
+}
+
+#box_button_junrecommend{
+  margin-right: auto;
+
+  position: absolute;
+  top: 55%;
+  left: -30px;
+
+  width: 242px;
+  height: 242px;
+  line-height: 230px;
+  border-radius: 50%;
+  z-index: 30;
+
+}
+
+#box_button_junrecommend:hover .button_junrecommend{
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
+
+
+/* ------------------ アカウント連携ボタン関係 ---------------- */
+
+.button_account{
+  height: 100%;
+  width: 51%;
+  position: absolute;
+  top: 40px;
+  right: 280px;
+
+  /* background-image: url(../images/account_button.png);
+  background-repeat: no-repeat; */
+}
+
+.button_account{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: inline-block;
+    text-decoration: none;
+    color: #cc99ff;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border-radius: 50%;
+    border: double 6px #cc99ff;
+    background-color: rgb(255, 255, 255, 0.5);
+    text-align: center;
+    /* overflow: hidden; */
+    transition: .6s;
+    font-family: 'DotGothic16', sans-serif;
+  }
+
+#box_button_account{
+  position: absolute;
+  top: 10%;
+  right: 20%;
+
+  width: 212px;
+  height: 212px;
+  line-height: 200px;
+  border-radius: 50%;
+}
+
+#box_button_account:hover .button_account{
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
+
+
+/* ----------- 潤の表示切替関係（実装未定）-------------- */
+/* ----------- 潤へのプレゼント画面に変更しました-------------- */
+
+/* #button_juntoggle{
+  height: 100%;
+  width: 50%;
+  margin-left: auto;
+
+  background-image: url(../images/toggle_button.png);
+  background-repeat: no-repeat;
+} */
+
+#button_juntoggle{
+  display: inline-block;
+  text-decoration: none;
+  color: #3a6c61;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  border-radius: 50%;
+  border: double 6px #7bead2;
+  background-color: rgb(255, 255, 255, 0.5);
+  text-align: center;
+  /* overflow: hidden; */
+  transition: .6s;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: 'DotGothic16', sans-serif;
+}
+
+#box_button_juntoggle{
+  position: absolute;
+  bottom: 150px;
+  right: 88px;
+  width: 162px;
+  height: 162px;
+  line-height: 150px;
+  border-radius: 50%;
+}
+
+#box_button_juntoggle:hover #button_juntoggle {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
+
+
+/* --------------- 潤本体(仮) --------------------- */
+
+
+#field_jun{
+  position: absolute;
+
+  height: 100%;
+  width: 100%;
+
+  background-image: url(../images/scene1.gif);
+  background-position: absolute;
+  /* margin-top: 40px; */
+  top: 0;
+  left: 10px;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  z-index: 20;
+}
+
+
+/* ########### 599px以下(smartphone) ########### */
+@media (max-width: 599px) {}
+
+
+
+/* ########### 600px以上～768px以下(tablet) ########### */
+@media (min-width: 600px) and (max-width: 768px) {}
+
+
+
+/* ########### 769px以上(PC) ########### */
+@media (min-width: 769px) {}
+
+
+
+/* ########### 1000px以上(PC) ########### */
+@media (min-width: 1000px) {}
+
+

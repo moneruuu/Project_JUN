@@ -1,0 +1,100 @@
+
+.modal{
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+.modal__bg{
+    background: rgba(0,0,0,0.8);
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+.modal__content{
+    background: #fff;
+    left: 50%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    border-radius: 50px;
+}
+
+
+div#modal01 a span{
+    
+    
+    
+    float: right;
+
+
+    border: #49F4E6 solid 2px;
+    border-radius: 4px;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#adf4ed+0,eaf9ff+100 */
+    background: #adf4ed; /* Old browsers */
+    background: -moz-linear-gradient(top,  #adf4ed 0%, #eaf9ff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #adf4ed 0%,#eaf9ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #adf4ed 0%,#eaf9ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adf4ed', endColorstr='#eaf9ff',GradientType=0 ); /* IE6-9 */
+
+    position: relative;
+    top: 0;
+    transition: top linear 0.1;
+    cursor: pointer;
+
+}
+
+div#modal01 a span div:hover{top:-4px;}
+div#modal01 a span div:active{top:0px;}
+div#modal02 a span{
+    
+    float: right;
+
+
+    border: #49F4E6 solid 2px;
+    border-radius: 4px;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#adf4ed+0,eaf9ff+100 */
+    background: #adf4ed; /* Old browsers */
+    background: -moz-linear-gradient(top,  #adf4ed 0%, #eaf9ff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #adf4ed 0%,#eaf9ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #adf4ed 0%,#eaf9ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adf4ed', endColorstr='#eaf9ff',GradientType=0 ); /* IE6-9 */
+
+    position: relative;
+    top: 0;
+    transition: top linear 0.1;
+    cursor: pointer;
+}
+div#modal02 a span div:hover{top:-4px;}
+div#modal02 a span div:active{top:0px;}
+
+div#modal03 a span{
+    
+    float: right;
+
+
+    border: #49F4E6 solid 2px;
+    border-radius: 4px;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#adf4ed+0,eaf9ff+100 */
+    background: #adf4ed; /* Old browsers */
+    background: -moz-linear-gradient(top,  #adf4ed 0%, #eaf9ff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #adf4ed 0%,#eaf9ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #adf4ed 0%,#eaf9ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adf4ed', endColorstr='#eaf9ff',GradientType=0 ); /* IE6-9 */
+
+    position: relative;
+    top: 0;
+    transition: top linear 0.1;
+    cursor: pointer;
+}
+div#modal03 a span div:hover{top:-4px;}
+div#modal03 a span div:active{top:0px;}
+
+

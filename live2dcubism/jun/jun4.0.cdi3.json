@@ -1,0 +1,427 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "左目　笑顔"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "右目　笑顔"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "目玉 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "目玉 Y"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "涙"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉　上下"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "口　変形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "口　開閉"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "照れ"
+		},
+		{
+			"Id": "Paramfasuna",
+			"GroupId": "",
+			"Name": "ファスナーの揺れ"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "体の回転　X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "",
+			"Name": "体の回転　Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "体の回転　Z"
+		},
+		{
+			"Id": "ParamArm_L_All",
+			"GroupId": "",
+			"Name": "左腕全体角度"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "左ひじ回転"
+		},
+		{
+			"Id": "ParamArm_L_hand",
+			"GroupId": "",
+			"Name": "左手のひら回転"
+		},
+		{
+			"Id": "ParamArm_L_hand_round",
+			"GroupId": "",
+			"Name": "左手首回転"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "左手グー・パー"
+		},
+		{
+			"Id": "ParamF_oya_L",
+			"GroupId": "",
+			"Name": "左親指曲げ"
+		},
+		{
+			"Id": "ParamF_hitosasi_L",
+			"GroupId": "",
+			"Name": "左人差し指曲げ"
+		},
+		{
+			"Id": "ParamF_naka_L",
+			"GroupId": "",
+			"Name": "左中指曲げ"
+		},
+		{
+			"Id": "ParamF_kusuri_L",
+			"GroupId": "",
+			"Name": "左薬指曲げ"
+		},
+		{
+			"Id": "ParamF_koyubi_L",
+			"GroupId": "",
+			"Name": "左小指曲げ"
+		},
+		{
+			"Id": "Param_fist_L",
+			"GroupId": "",
+			"Name": "左こぶし曲げ"
+		},
+		{
+			"Id": "ParamArm_R_All",
+			"GroupId": "",
+			"Name": "右腕全体角度"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "右ひじ回転"
+		},
+		{
+			"Id": "ParamArm_R_hand",
+			"GroupId": "",
+			"Name": "右手のひら回転"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "右手グー・パー"
+		},
+		{
+			"Id": "ParamArm_R_hand_round",
+			"GroupId": "",
+			"Name": "右手首回転"
+		},
+		{
+			"Id": "ParamF_oya_R",
+			"GroupId": "",
+			"Name": "右親指曲げ"
+		},
+		{
+			"Id": "ParamF_hitosasi_R",
+			"GroupId": "",
+			"Name": "右人差し指曲げ"
+		},
+		{
+			"Id": "ParamF_naka_R",
+			"GroupId": "",
+			"Name": "右中指曲げ"
+		},
+		{
+			"Id": "ParamF_kusuri_R",
+			"GroupId": "",
+			"Name": "右薬指曲げ"
+		},
+		{
+			"Id": "ParamF_koyubi_R",
+			"GroupId": "",
+			"Name": "右小指曲げ"
+		},
+		{
+			"Id": "Param_fist_R",
+			"GroupId": "",
+			"Name": "右こぶし曲げ"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "",
+			"Name": "髪揺れ　前"
+		},
+		{
+			"Id": "ParamHairFront_Y",
+			"GroupId": "",
+			"Name": "髪揺れ　縦前"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "",
+			"Name": "髪揺れ　横"
+		},
+		{
+			"Id": "ParamHairSide_Y",
+			"GroupId": "",
+			"Name": "髪揺れ　横縦"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "",
+			"Name": "髪揺れ　後"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "head",
+			"Name": "頭部"
+		},
+		{
+			"Id": "body",
+			"Name": "身体"
+		},
+		{
+			"Id": "arm_left",
+			"Name": "左腕"
+		},
+		{
+			"Id": "arm_right",
+			"Name": "右腕"
+		},
+		{
+			"Id": "hair_usiro",
+			"Name": "後方髪"
+		},
+		{
+			"Id": "sitagaki",
+			"Name": "下書き"
+		},
+		{
+			"Id": "mayuge",
+			"Name": "眉毛"
+		},
+		{
+			"Id": "maegami",
+			"Name": "前髪群"
+		},
+		{
+			"Id": "kazari",
+			"Name": "頭周り"
+		},
+		{
+			"Id": "tuinnte",
+			"Name": "ツインテ毛"
+		},
+		{
+			"Id": "face",
+			"Name": "顔"
+		},
+		{
+			"Id": "body_ue",
+			"Name": "上の服"
+		},
+		{
+			"Id": "onaka",
+			"Name": "お腹"
+		},
+		{
+			"Id": "hand_left",
+			"Name": "左手のひら"
+		},
+		{
+			"Id": "hand_right",
+			"Name": "右手のひら"
+		},
+		{
+			"Id": "headphone",
+			"Name": "ヘッドセット"
+		},
+		{
+			"Id": "maru",
+			"Name": "髪飾り"
+		},
+		{
+			"Id": "mouth",
+			"Name": "口"
+		},
+		{
+			"Id": "eye_right",
+			"Name": "右目"
+		},
+		{
+			"Id": "eye_left",
+			"Name": "左目"
+		},
+		{
+			"Id": "oya_left",
+			"Name": "左親指"
+		},
+		{
+			"Id": "hitosasi_left",
+			"Name": "左人差し指"
+		},
+		{
+			"Id": "naka_left",
+			"Name": "左中指"
+		},
+		{
+			"Id": "kusuri_left",
+			"Name": "左薬指"
+		},
+		{
+			"Id": "koyubi_left",
+			"Name": "左小指"
+		},
+		{
+			"Id": "oya_right",
+			"Name": "右親指"
+		},
+		{
+			"Id": "koyubi_right",
+			"Name": "右小指"
+		},
+		{
+			"Id": "kusuri_right",
+			"Name": "右薬指"
+		},
+		{
+			"Id": "naka_right",
+			"Name": "右中指"
+		},
+		{
+			"Id": "hitosasi_right",
+			"Name": "右人差し指"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		],
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamBrowLY",
+			"ParamBrowLX"
+		],
+		[
+			"ParamBrowRY",
+			"ParamBrowRX"
+		],
+		[
+			"ParamMouthForm",
+			"ParamMouthOpenY"
+		],
+		[
+			"ParamBodyAngleX",
+			"ParamBodyAngleY"
+		],
+		[
+			"ParamHairFront",
+			"ParamHairFront_Y"
+		],
+		[
+			"ParamHairSide",
+			"ParamHairSide_Y"
+		]
+	]
+}
